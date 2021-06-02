@@ -51,7 +51,7 @@ cd congenial-spoon
         ```
     - Reset local `main` branch to match `rakesh` repository's `main` branch
         ```
-        git reset --hard rakesh/main
+        git reset --hard rakesh main
         ```
     - Push changes to your forked repository (you can skip this)
         ```
