@@ -2,6 +2,7 @@
 
 ## 2. Clone the forked repo (done only once)
 Open a terminal and run the below commands in your desired directory
+
 *Replace `USERNAME` with your username*
 ```
 git clone https://github.com/USERNAME/congenial-spoon.git
