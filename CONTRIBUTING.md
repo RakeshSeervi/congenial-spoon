@@ -18,8 +18,8 @@ cd congenial-spoon
 
     Output would be
     ```
-    origin https://github.com/USERNAME/Android-Development.git (fetch)```
-    origin https://github.com/USERNAME/Android-Development.git (push)
+    origin https://github.com/USERNAME/congenial-spoon.git (fetch)```
+    origin https://github.com/USERNAME/congenial-spoon.git (push)
     ```
 
     `origin` refers to the repository on your account
