@@ -52,7 +52,7 @@ cd congenial-spoon
         ```
         git reset --hard upstream/main
         ```
-    - Push changes to your forked repository
+    - Push changes to your forked repository (you can skip this)
         ```
         git push origin
         ```
@@ -96,3 +96,7 @@ stable version of your project (i.e. synced with remote branch).
     Finally, go to your repository on github, switch to the desired branch and click on **compare and pull request**. 
 
     Then add a title and description to your pull request that explains your precious effort.
+  
+  - Delete the branch
+
+    Once the pull request is merged, you can delete your remote branch
