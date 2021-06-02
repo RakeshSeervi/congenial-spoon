@@ -1,10 +1,10 @@
-from datetime import datetime
+from dotenv import load_dotenv
 import os
-import pytz
 import requests
-import math
 
-API_KEY = 'e64142d5d03e96f67de1b9372b0ee4cf'
+load_dotenv()
+
+API_KEY = os.getenv('API_KEY')
 
 API_URL = ('http://api.openweathermap.org/data/2.5/weather?q={}&mode=json&units=metric&appid={}')
 

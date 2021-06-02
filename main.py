@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from pprint import pprint as pp
-from flask import Flask, flash, redirect, render_template, request, url_for
+from flask import Flask, render_template, request
 from weather import query_api
 
 app = Flask(__name__)
@@ -34,7 +34,6 @@ def result():
         
         if len(data) != 2:        
             error = 'Bad Response from Weather API'    
-    
         return render_template('result.html', data=data, error=error)
         
 if __name__=='__main__':

@@ -5,7 +5,7 @@
 <div class="center-on-page">
 
 {% for d in data %} 
-    {% set my_string = "static/img/WeatherApp_Image/" + d['weather'][0]['icon']+ ".svg" %}    
+    {% set my_string = "static/img/" + d['weather'][0]['icon']+ ".svg" %}    
     <h1>  
         <img src="{{ my_string }}" class="svg" fill="white" height="100" vertical-align="middle" width="100"> 
     </h1>  
