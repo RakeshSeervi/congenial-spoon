@@ -21,7 +21,14 @@ A simple weather app using flask framework and OpenWeatherMap API
     ```
     pip install -r requirements.txt
     ```
-5. Run the application
+5. Configuring environment variables
+    - Get your free API key from [here](https://openweathermap.org/api)
+    - Create a `.env` file in the project directory
+    - Add the below line to the file
+        ```
+        API_KEY=YOUR_API_KEY
+        ```
+7. Run the application
     ```
     python main.py
     ```
