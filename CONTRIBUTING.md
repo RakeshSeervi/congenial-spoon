@@ -34,7 +34,7 @@ cd congenial-spoon
 
 ## 4. Workflow (everytime you work on a new feature or fix a bug)
 
-- **Sync it**
+- **Sync it** (can skip this the very first time)
   
     Always keep your local copy of the repository updated with the original repository. 
 
@@ -50,7 +50,7 @@ cd congenial-spoon
         ```
     - Reset local `main` branch to match `rakesh` repository's `main` branch
         ```
-        git reset --hard upstream/main
+        git reset --hard rakesh/main
         ```
     - Push changes to your forked repository (you can skip this)
         ```
