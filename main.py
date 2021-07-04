@@ -5,21 +5,22 @@ from weather import query_api
 
 app = Flask(__name__)
 
+cities = [
+            'Bengaluru', 
+            'Montreal', 
+            'Calgary',        
+            'Ottawa', 
+            'Edmonton', 
+            'Mississauga',        
+            'Winnipeg', 
+            'Vancouver', 
+            'Brampton',         
+            'Quebec'
+        ]
+
 @app.route('/')
 def index():    
-    return render_template('weather.html', 
-        data=[
-                {'name':'Bengaluru'}, 
-                {'name':'Montreal'}, 
-                {'name':'Calgary'},        
-                {'name':'Ottawa'}, 
-                {'name':'Edmonton'}, 
-                {'name':'Mississauga'},        
-                {'name':'Winnipeg'}, 
-                {'name':'Vancouver'}, 
-                {'name':'Brampton'},         
-                {'name':'Quebec'}
-            ])
+    return render_template('weather.html', cities=cities)
             
 @app.route("/result" , methods=['GET', 'POST'])
 def result():    

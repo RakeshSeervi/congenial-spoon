@@ -6,8 +6,8 @@
 <form class="form-inline" method="POST" action="{{ url_for('result') }}">  
     <div class="select">    
         <select name="comp_select" class="selectpicker form-control">    
-            {% for o in data %}     
-                <option value="{{ o.name }}">{{ o.name }}</option>    
+            {% for city in cities %}     
+                <option value="{{ city }}">{{ city }}</option>    
             {% endfor %}    
         </select>   
     </div>    
