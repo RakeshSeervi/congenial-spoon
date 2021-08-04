@@ -15,7 +15,8 @@ cities = [
             'Winnipeg', 
             'Vancouver', 
             'Brampton',         
-            'Quebec'
+            'Quebec',
+            'Paris','London','Dubai','Hong Kong','Hawaii'
         ]
 
 @app.route('/')
